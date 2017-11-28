@@ -1,0 +1,49 @@
+.Header {
+    margin: 30px;
+    height: 95vh;
+    min-width: 24em;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 50% 95vh, 0 75vh);
+    background-image: 
+        linear-gradient(
+            to bottom, 
+            hsla(101, 86%, 75%, 0.8), 
+            rgba(130, 187, 169, 0.8)
+        ), 
+        /* url(http://cdn.shopify.com/s/files/1/0778/2679/files/banyan_c7f36ef7-751f-44b3-9891-364cb5a7f06f_1024x1024.jpg?16096657562656961956); */
+        url(https://images.fineartamerica.com/images-medium-large/ancient-maui-banyan-tree-2-dustin-k-ryan.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.Header h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18em;
+    padding: 0.25em;
+    background: linear-gradient(
+        to right, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 15%, 
+        rgba(255, 255, 255, 1) 85%, 
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.Header h1 span {
+    display: block;
+    text-align: center;
+}
+
+.main-header {
+    padding-left: 0.18em;    
+    font-size: 36px;
+    letter-spacing: 0.3em;
+}
+
+.sub-header {
+    font-size: 22px;
+    letter-spacing: 0.04em;
+}
